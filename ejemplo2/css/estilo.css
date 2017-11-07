@@ -1,0 +1,30 @@
+div#imagenprincipal {
+	background-image: url('../img/fondo.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 400px;
+}
+
+ul.horizontal-slide {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+ul.horizontal-slide li[class*="col"] {
+    display: inline-block;
+    float: none;
+}
+
+ul.horizontal-slide li[class*="col"]:first-child {
+    margin-left: 0;
+}
+
+img#logo {
+    width: 60%;
+    object-position: top center;
+}
+
